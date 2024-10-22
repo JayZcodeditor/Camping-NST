@@ -119,7 +119,7 @@ function btn_save_click(uid) {
     "dateback": document.getElementById("dateback").value,
     "room_selection" : document.getElementById("room_selection").value
   };
-  const url = "http://localhost:3000/usercamp/" + uid;
+  const url = "http://185.199.110.153:443/usercamp/" + uid;
   console.log(url);
   fetch(url, {
     method: "PUT",
